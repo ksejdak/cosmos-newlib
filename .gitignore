@@ -16,6 +16,7 @@
 *.pyc
 *.swp
 *.tmp
+.DS_Store
 
 .deps
 .libs
