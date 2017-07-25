@@ -787,6 +787,7 @@ CPPFLAGS
 CPP'
 ac_subdirs_all='a29khif
 arm
+cosmos
 d10v
 decstation
 epiphany
@@ -11808,6 +11809,8 @@ if test -n "${sys_dir}"; then
 subdirs="$subdirs a29khif"
  ;;
 	arm) subdirs="$subdirs arm"
+ ;;
+  cosmos) subdirs="$subdirs cosmos"
  ;;
 	d10v) subdirs="$subdirs d10v"
  ;;

@@ -805,6 +805,9 @@ case "${target}" in
   *-*-netware*)
     noconfigdirs="$noconfigdirs ${libgcj}"
     ;;
+  *-*-cosmos*)
+    noconfigdirs="$noconfigdirs ${libgcj}"
+    ;;
   *-*-phoenix*)
     noconfigdirs="$noconfigdirs ${libgcj}"
     ;;
@@ -1063,6 +1066,9 @@ case "${target}" in
   *-*-netbsd*)
     ;;
   *-*-netware*)
+    ;;
+  *-*-cosmos*)
+    noconfigdirs="$noconfigdirs target-libgloss"
     ;;
   *-*-phoenix*)
     noconfigdirs="$noconfigdirs target-libgloss"
