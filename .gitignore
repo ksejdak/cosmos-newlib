@@ -17,6 +17,7 @@
 *.swp
 *.tmp
 .DS_Store
+.vscode/
 
 .deps
 .libs
